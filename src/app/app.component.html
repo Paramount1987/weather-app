@@ -1,3 +1,20 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+          <h1>{{title}}</h1>
+        </div>
+
+        <app-sidebar></app-sidebar>
+
+        <app-weather-search></app-weather-search>
+
+        <div class="weather-container">
+          <app-weather-list></app-weather-list>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
